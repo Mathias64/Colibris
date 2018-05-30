@@ -1,0 +1,88 @@
+/* formulaire update */
+
+.divFormUpdate {
+    background-color: #F0F0F0;
+}
+
+
+.formUpdate {
+    height: 350px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.formCreate {
+    background-color: white;
+    height: 350px;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.divFormContenu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.divFormContenu2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.inputMargin {
+    margin-right: 50px;
+}
+
+.divFormBtn {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+.policeForm {
+    font-size: 16px;
+    color: #3B3B3B;
+}
+
+.taille1Form {
+    width: 250px; 
+    height: 35px;
+    padding-left: 10px;
+
+}
+
+.taille2Form {
+    width: 400px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.taille3form {
+    width: 414px;  
+    height: 39px;
+    padding-left: 10px;
+}
+
+.taille4form {
+    width: 264px;
+    height: 39px;
+
+    padding-left: 10px;
+}

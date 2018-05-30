@@ -1,0 +1,569 @@
+[{
+        "@type": "Edition",
+        "title": "Les Fourberies de Scapin",
+        "author": "Molière",
+        "publisher": 0,
+        "collection": 0,
+        "language": "Français",
+        "publishedDate": "2016-04-13T12:00:00Z",
+        "pages": 144,
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg",
+        "ISBN10": 2013949677,
+        "ISBN13": 9782013949675,
+        "series": [
+            {
+                "@type": "Serie",
+                "college": 1,
+                "codeBar": 47862133,
+                "quantite": 30,
+                "niveau": [6],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 2,
+                "codeBar": 5249657,
+                "quantite": 27,
+                "niveau": [6],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 3,
+                "codeBar": 6682264,
+                "quantite": 29,
+                "niveau": [6],
+                "statut": 1
+            }
+        ]
+    },
+    {
+        "@type": "Edition",
+        "title": "16 métamorphoses d'Ovide",
+        "author": "Francoise Rachmuhl",
+        "publisher": 1,
+        "collection": 0,
+        "language": "Français",
+        "publishedDate": "2010-08-25T12:00:00Z",
+        "pages": 159,
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51oWMw28WRL._SX349_BO1,204,203,200_.jpg",
+        "ISBN10": 2081242117,
+        "ISBN13": 9782081242111,
+        "series": [
+            {
+                "@type": "Serie",
+                "college": 0,
+                "codeBar": 47860333,
+                "quantite": 30,
+                "niveau": [6],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 0,
+                "codeBar": 47860334,
+                "quantite": 30,
+                "niveau": [6],
+                "statut": 2
+            },
+            {
+                "@type": "Serie",
+                "college": 8,
+                "codeBar": 4780666,
+                "quantite": 30,
+                "niveau": [6],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 6,
+                "codeBar": 5249657,
+                "quantite": 27,
+                "niveau": [6],
+                "statut": 1
+            }
+        ]
+    },
+    {
+        "@type": "Edition",
+        "title": "Aliénor d'Aquitaine, une reine à l'aventure",
+        "author": "Brigitte Coppin",
+        "publisher": 1,
+        "collection": 0,
+        "language": "Français",
+        "publishedDate": "2010-09-24T12:00:00Z",
+        "pages": 153,
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51H2URqGOrL._SX349_BO1,204,203,200_.jpg",
+        "ISBN10": 2081243547,
+        "ISBN13": 9782081243545,
+        "series": [
+            {
+                "@type": "Serie",
+                "college": 0,
+                "codeBar": 47860333,
+                "quantite": 29,
+                "niveau": [5],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 3,
+                "codeBar": 4780666,
+                "quantite": 26,
+                "niveau": [5],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 6,
+                "codeBar": 5249657,
+                "quantite": 27,
+                "niveau": [5],
+                "statut": 1
+            }
+        ]
+    },
+    {
+        "@type": "Edition",
+        "title": "Antigone",
+        "author": "Jean Anouilh",
+        "publisher": 2,
+        "collection": 0,
+        "language": "Français",
+        "publishedDate": "2016-06-08T12:00:00Z",
+        "pages": 128,
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41hdiF2lwxL._SX303_BO1,204,203,200_.jpg",
+        "ISBN10": 2710381419,
+        "ISBN13": 9782710381419,
+        "series": [
+            {
+                "@type": "Serie",
+                "college": 0,
+                "codeBar": 47860333,
+                "quantite": 30,
+                "niveau": [3],
+                "statut": 2
+            },
+            {
+                "@type": "Serie",
+                "college": 0,
+                "codeBar": 4780666,
+                "quantite": 30,
+                "niveau": [3],
+                "statut": 2
+            },
+            {
+                "@type": "Serie",
+                "college": 0,
+                "codeBar": 4780999,
+                "quantite": 30,
+                "niveau": [3],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 2,
+                "codeBar": 4780555,
+                "quantite": 30,
+                "niveau": [3],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 4,
+                "codeBar": 5249657,
+                "quantite": 27,
+                "niveau": [3],
+                "statut": 2
+            },
+            {
+                "@type": "Serie",
+                "college": 6,
+                "codeBar": 5249657,
+                "quantite": 27,
+                "niveau": [3],
+                "statut": 2
+            }
+        ]
+    },
+    {
+        "@type": "Edition",
+        "title": "Claude Gueux",
+        "author": " Victor Hugo",
+        "publisher": 3,
+        "collection": 0,
+        "language": "Français",
+        "publishedDate": "1995-02-01T12:00:00Z",
+        "pages": 91,
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51X9IePOydL._SX297_BO1,204,203,200_.jpg",
+        "ISBN10": 2253136530,
+        "ISBN13": 9782253136538,
+        "series": [{
+                "@type": "Serie",
+                "college": 0,
+                "codeBar": 47860365,
+                "quantite": 30,
+                "niveau": [4, 3],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 9,
+                "codeBar": 4780666,
+                "quantite": 30,
+                "niveau": [4, 3],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 10,
+                "codeBar": 5249657,
+                "quantite": 27,
+                "niveau": [4, 3],
+                "statut": 1
+            }
+        ]
+    },
+    {
+        "@type": "Edition",
+        "title": "Comment Wang-Fô fut sauvé",
+        "author": " Marguerite Yourcenar",
+        "publisher": 4,
+        "collection": 0,
+        "language": "Français",
+        "publishedDate": "2010-08-25T12:00:00Z",
+        "pages": 48,
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/515Dq3vY2wL._SX338_BO1,204,203,200_.jpg",
+        "ISBN10": 2070662071,
+        "ISBN13": 9782070662074,
+        "series": [
+            {
+                "@type": "Serie",
+                "college": 0,
+                "codeBar": 47860333,
+                "quantite": 49,
+                "niveau": [6],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 4,
+                "codeBar": 4780666,
+                "quantite": 30,
+                "niveau": [6],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 8,
+                "codeBar": 5249657,
+                "quantite": 25,
+                "niveau": [6],
+                "statut": 1
+            }
+        ]
+    },
+    {
+        "@type": "Edition",
+        "title": "Contes en prose",
+        "author": "Charles Perrault",
+        "publisher": 3,
+        "collection": 0,
+        "language": "Français",
+        "publishedDate": "2004-06-16T12:00:00Z",
+        "pages": 93,
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51egXyQNoeL._SX307_BO1,204,203,200_.jpg",
+        "ISBN10": 2253087815,
+        "ISBN13": 9782253087816,
+        "series": [
+            {
+                "@type": "Serie",
+                "college": 0,
+                "codeBar": 47860333,
+                "quantite": 31,
+                "niveau": [6],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 3,
+                "codeBar": 4780666,
+                "quantite": 26,
+                "niveau": [6],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 2,
+                "codeBar": 5249657,
+                "quantite": 24,
+                "niveau": [6],
+                "statut": 1
+            }
+        ]
+    },
+    {
+        "@type": "Edition",
+        "title": "Alix, tome 15 : L'Enfant grec",
+        "author": "Jacques Martin",
+        "publisher": 5,
+        "collection": 0,
+        "language": "Français",
+        "publishedDate": "1993-05-04T12:00:00Z",
+        "pages": 48,
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/61A2H3SHzVL._SX371_BO1,204,203,200_.jpg",
+        "ISBN10": 2203312157,
+        "ISBN13": 9782203312159,
+        "series": [
+            {
+                "@type": "Serie",
+                "college": 0,
+                "codeBar": 47860333,
+                "quantite": 12,
+                "niveau": [6],
+                "statut": 0
+            }
+        ]
+    },
+    {
+        "@type": "Edition",
+        "title": "Le petit prince",
+        "author": "Antoine de Saint-Exupéry",
+        "publisher": 6,
+        "collection": 0,
+        "language": "Français",
+        "publishedDate": "2007-03-15T12:00:00Z",
+        "pages": 120,
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41GV2o0IwCL._SX346_BO1,204,203,200_.jpg",
+        "ISBN10": 2070612759,
+        "ISBN13": 9782070612758,
+        "series": [
+            {
+                "@type": "Serie",
+                "college": 0,
+                "codeBar": 47860533,
+                "quantite": 32,
+                "niveau": [4],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 3,
+                "codeBar": 47865533,
+                "quantite": 28,
+                "niveau": [4],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 8,
+                "codeBar": 47960533,
+                "quantite": 16,
+                "niveau": [4],
+                "statut": 2
+            }
+        ]
+    },
+    {
+        "@type": "Edition",
+        "title": "Le tour du monde en 80 jours",
+        "author": "Jules Verne",
+        "publisher": 7,
+        "collection": 0,
+        "language": "Français",
+        "publishedDate": "2014-08-27T12:00:00Z",
+        "pages": 256,
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/513gTqprzZL._SX349_BO1,204,203,200_.jpg",
+        "ISBN10": 2010015800,
+        "ISBN13": 9782010015809,
+        "series": [
+            {
+                "@type": "Serie",
+                "college": 2,
+                "codeBar": 49860333,
+                "quantite": 15,
+                "niveau": [6],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 2,
+                "codeBar": 49860353,
+                "quantite": 24,
+                "niveau": [6],
+                "statut": 0
+            }
+        ]
+    },
+    {
+        "@type": "Edition",
+        "title": "Cyrano de Bergerac",
+        "author": "Edmond Rostand",
+        "publisher": 8,
+        "collection": 0,
+        "language": "Français",
+        "publishedDate": "2005-06-23T12:00:00Z",
+        "pages": 288,
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/511A4vQ4QKL._SX303_BO1,204,203,200_.jpg",
+        "ISBN10": 2266152173,
+        "ISBN13": 9782266152174,
+        "series": [
+            {
+                "@type": "Serie",
+                "college": 0,
+                "codeBar": 45867333,
+                "quantite": 32,
+                "niveau": [4],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 5,
+                "codeBar": 45867353,
+                "quantite": 22,
+                "niveau": [],
+                "statut": 2
+            },
+            {
+                "@type": "Serie",
+                "college": 5,
+                "codeBar": 45867333,
+                "quantite": 28,
+                "niveau": [4],
+                "statut": 1
+            }
+        ]
+    },
+    {
+        "@type": "Edition",
+        "title": "Le malade imaginaire",
+        "author": "Molière",
+        "publisher": 8,
+        "collection": 0,
+        "language": "Français",
+        "publishedDate": "2010-06-23T12:00:00Z",
+        "pages": 288,
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/411u6z13xgL._SX296_BO1,204,203,200_.jpg",
+        "ISBN10": 2266209787,
+        "ISBN13": 9782266209786,
+        "series": [
+            {
+                "@type": "Serie",
+                "college": 0,
+                "codeBar": 45887633,
+                "quantite": 27,
+                "niveau": [4],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 5,
+                "codeBar": 46867353,
+                "quantite": 22,
+                "niveau": [],
+                "statut": 2
+            },
+            {
+                "@type": "Serie",
+                "college": 5,
+                "codeBar": 45867733,
+                "quantite": 28,
+                "niveau": [4],
+                "statut": 1
+            }
+        ]
+    },
+    {
+        "@type": "Edition",
+        "title": "George Dandin",
+        "author": "Molière",
+        "publisher": 9,
+        "collection": 0,
+        "language": "Français",
+        "publishedDate": "2013-08-24T12:00:00Z",
+        "pages": 137,
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41LITZ6LVRL._SX347_BO1,204,203,200_.jpg",
+        "ISBN10": 2081303108,
+        "ISBN13": 9782081303102,
+        "series": [
+            {
+                "@type": "Serie",
+                "college": 2,
+                "codeBar": 30000000,
+                "quantite": 25,
+                "niveau": [3],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 8,
+                "codeBar": 30000000,
+                "quantite": 17,
+                "niveau": [4],
+                "statut": 1
+            }
+        ]
+    },
+    {
+        "@type": "Edition",
+        "title": "Pierre et Jean",
+        "author": "Guy de Maupassant",
+        "publisher": 10,
+        "collection": 0,
+        "language": "Français",
+        "publishedDate": "2014-08-27T12:00:00Z",
+        "pages": 128,
+        "cover": "https://images-eu.ssl-images-amazon.com/images/I/51fYRQeQCDL._AC_US218_.jpg",
+        "ISBN10": 2290099074,
+        "ISBN13": 9782290099070,
+        "series": [
+            {
+                "@type": "Serie",
+                "college": 5,
+                "codeBar": 30048500,
+                "quantite": 15,
+                "niveau": [4],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 6,
+                "codeBar": 30508000,
+                "quantite": 27,
+                "niveau": [4],
+                "statut": 2
+            }
+        ]
+    },
+    {
+        "@type": "Edition",
+        "title": "Hamlet",
+        "author": "Wiliam Shakespeare",
+        "publisher": 11,
+        "collection": 0,
+        "language": "Anglais",
+        "publishedDate": "2017-08-24T12:00:00Z",
+        "pages": 168,
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41RS5zh8O%2BL._SX331_BO1,204,203,200_.jpg",
+        "ISBN10": 1975734564,
+        "ISBN13": 9781975734565,
+        "series": [
+            {
+                "@type": "Serie",
+                "college": 5,
+                "codeBar": 30048600,
+                "quantite": 15,
+                "niveau": [3],
+                "statut": 1
+            },
+            {
+                "@type": "Serie",
+                "college": 6,
+                "codeBar": 30508900,
+                "quantite": 27,
+                "niveau": [3],
+                "statut": 2
+            }
+        ]
+    }
+]

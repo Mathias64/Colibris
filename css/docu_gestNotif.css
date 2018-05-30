@@ -1,0 +1,39 @@
+/* 
+    Created on : 2 avr. 2018, 08:56:46
+    Author     : mathias
+*/
+.section-college {
+    margin-top: 30px;
+    
+    border: 1px solid #000;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 3px 5px 5px rgba(0,0,0,.3);
+    margin-top: 10px;
+}
+.notif-college-entete {
+    height: 80px;
+    padding: 5px;
+    background-color: #478EBF;
+    border-bottom: 1px solid #000;
+}
+
+.nbr-echanges {
+    width: 70px;
+    background-color: #fff;
+    border: 1px solid #3B3B3B;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 7px;
+    margin-right: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+}
+.profs-communs {
+    margin-left: 20px;
+}
+
+.ficheSerie {
+    box-shadow: none !important;
+}

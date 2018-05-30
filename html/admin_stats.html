@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/coLibris-header.png" />    
+    <title>Statistiques</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/admin_stats.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+    <link href="../js/c3-0.4.23/c3.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+    <div class="main">
+        <section class="section premiereSection">
+            <h2>Fréquentation (nombre de connexions pour l'année)</h2>
+            <p>Connexion cumulées : <strong>2815</strong></p>
+            <p>Connexions documentaliste : <strong>1415</strong></p>
+            <p>Connexions enseignant : <strong>1400</strong></p>
+            <div id="frequentationMois"></div>
+            <div id="frequentationCumul"></div>
+        </section>
+        <section class="section">
+                        <h2>Séries</h2>
+            <p>Nombre de séries enregistrer : <strong>457</strong></p>
+            <p>Temps moyen de prêt en jours : <strong>132</strong></p>
+            <p>Nombre d'emprunt pour l'année : <strong>115</strong></p>
+        </section>
+        <section class="formRaw">
+            <div class="section divDonut">
+                    <h2>Utilisateurs</h2>
+                <p>Nombre d'inscrits : <strong>219</strong></p>
+                <p>Enseignants : <strong>168</strong></p>
+                <p>Documentalistes : <strong>49</strong></p>
+                <p>Administrateurs : <strong>2</strong></p>
+                <div id="donutUtilisateurs"></div>
+                    </div>
+            <div class="section divDonut">
+                <h2>Séries - Statuts</h2>
+                <p>Séries en local : <strong>132</strong></p>
+                <p>Séries à l'export : <strong>115</strong></p>
+                <div id="donutSeriesStatut"></div>
+                    </div>
+            <div class="section divDonut">
+                <h2>Séries - Restitutions</h2>
+                <p>À l'heure : <strong>98</strong></p>
+                <p>En retard : <strong>17</strong></p>
+                <div id="donutSeriesRetard"></div>
+                    </div>
+        </section>
+    </div>
+    <script type="text/javascript" src="../js/header.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="../js/c3-0.4.23/c3.js" type="text/javascript"></script>
+        <script>
+            var frequentationMois = c3.generate({
+                bindto: '#frequentationMois',
+                data: {
+                    x: 'x',
+                    columns: [
+                        ['x', '2017-09-01', '2017-10-01', '2017-11-01', '2017-12-01', '2018-01-01', '2018-02-01', '2018-03-01', '2018-04-01', '2018-05-01', '2018-06-01', '2018-07-01'],
+//var months = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juill.", "août", "sept.", "oct.", "nov.", "déc."];
+                        ['Connexions documentaliste', 30, 200, 100, 400, 150, 250],
+                        ['Connexions enseignants', 130, 300, 200, 300, 250, 450],
+                        ['Connexions total', 160, 500, 300, 700, 400, 700]
+                    ]
+                },
+                axis: {
+                    x: {
+                        type: 'timeseries',
+                        tick: {
+                            format: '%m'
+                        }
+                    }
+                }
+            });
+            
+            var frequentationCumul = c3.generate({
+                bindto: '#frequentationCumul',
+                data: {
+                    x: 'x',
+                    columns: [
+                        ['x', '2017-09-01', '2017-10-01', '2017-11-01', '2017-12-01', '2018-01-01', '2018-02-01', '2018-03-01', '2018-04-01', '2018-05-01', '2018-06-01', '2018-07-01'],
+//var months = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juill.", "août", "sept.", "oct.", "nov.", "déc."];
+                        ['Connexions documentaliste', 30, 230, 330, 730, 880, 1030],
+                        ['Connexions enseignants', 130, 430, 630, 930, 1180, 1630],
+                        ['Connexions total', 160, 660, 960, 1660, 2060, 2760]
+                    ]
+                },
+                axis: {
+                    x: {
+                        type: 'timeseries',
+                        tick: {
+                            format: '%m'
+                        }
+                    }
+                }
+            });
+            
+            // Utilisateurs
+            var utilisateurs = c3.generate({
+                bindto: '#donutUtilisateurs',
+                data: {
+                    columns: [
+                        ['Enseignants', 168],
+                        ['Documentalistes', 49],
+                        ['Administrateurs', 2],
+                    ],
+                    type : 'donut',
+                    onclick: function (d, i) { console.log("onclick", d, i); },
+                    onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+                    onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+                },
+                donut: {
+                    title: "Utilisateurs"
+                }
+            });
+            
+            // Donut - Series Statut
+            var donutSeriesStatut = c3.generate({
+                bindto: '#donutSeriesStatut',
+                data: {
+                    columns: [
+                        ['Local', 750],
+                        ['Export', 250]
+                    ],
+                    type : 'donut',
+                    onclick: function (d, i) { console.log("onclick", d, i); },
+                    onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+                    onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+                },
+                donut: {
+                    title: "Statut"
+                }
+            });
+            
+            // Donut - Series retard
+            var donutSeriesStatut = c3.generate({
+                bindto: '#donutSeriesRetard',
+                data: {
+                    columns: [
+                        ["À l'heure", 98],
+                        ["En retard", 17]
+                    ],
+                    type : 'donut',
+                    onclick: function (d, i) { console.log("onclick", d, i); },
+                    onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+                    onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+                },
+                donut: {
+                    title: "Retards"
+                }
+            });
+        </script>
+</body>
+</html>

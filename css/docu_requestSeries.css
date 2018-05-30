@@ -1,0 +1,205 @@
+.Section3Docu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px 45px 15px 45px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+       -moz-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+            box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+}
+
+.divRequete {
+    width: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px 45px 30px 45px;    
+}
+
+.divResultatSerie {
+    width: 100%;
+}
+
+.articleSerie {
+    padding: 25px 30px 25px 30px;
+    margin-bottom: 20px;
+}
+
+.articleSerie2 {
+    background-color: #F0F0F0;
+    padding: 25px 30px 25px 30px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+       -moz-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+            box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+}
+.articleSerie2:hover {
+    cursor: pointer; 
+}
+
+
+.infoSerie{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.divTitreSerie {
+    width: 325px;
+    display: flex;
+    align-items: center;
+}
+
+.divImgFleche {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSerie {
+    margin-right: 25px;
+}
+
+.divTitreRequete {
+    width: 500px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+
+.deplierSerie {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.deplierSerie:hover {
+    cursor: initial;
+}
+
+.deplierSerie p{
+    margin-bottom: 4px;
+    padding: 6px 0px 0px 0px;
+}
+
+.infoSerieDetail {
+    width: 350px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-right: 30px;
+    height: 168px;
+}
+
+.formContact {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.dateEmprunt {
+    width: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    margin-right: 30px;
+    height: 168px;
+}
+
+.dateEmpruntDetail {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.dateEmprunt label {
+    margin-bottom: 4px;
+    padding: 6px 0px 0px 0px;
+}
+
+.dateEmprunt input {
+    height: 35px;
+    padding-left: 8px;
+    font-family: "open_sans",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    color: #3B3B3B;
+}
+.dateEmprunt p {
+    padding: 6px 0px 6px 10px;
+    background-color: white;
+}
+
+.comEtBtn {
+    width: 550px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.commentaire {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.commentaire label {
+    padding: 6px 0px 0px 0px;
+    margin-bottom: 4px;
+}
+
+.commentaire textarea {
+    height: 60px;
+    padding: 8px;
+    font-family: "open_sans",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    color: #3B3B3B;
+}
+
+.btn-request {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 23px;
+}
+
+.btn-refus {
+    background-color: white;
+    border: 2px solid #3B3B3B;
+    color: #3B3B3B;
+}
+label {
+    font-weight: 600;
+}
+
+.hidden1 {
+    display: none;
+}
+
+.hidden2 {
+    display: none;
+}
+
+.sablier {
+    height: 2em;
+}
+
+.divMessageRecu p {
+    padding: 6px 0px 0px 0px;
+    margin-bottom: 4px;
+}
+
+.message {
+    margin-bottom: 15px;
+}
+
+.message p:first-child {
+    text-decoration: underline;
+}

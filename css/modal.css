@@ -1,0 +1,109 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    padding-left: 30em;
+    padding-right: 30em;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100vh; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);;
+    margin: auto;
+    height: auto;
+    border: 1px solid #888;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.2);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+.modal-content #divInputLogin{
+      width: 70%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-around;
+      align-items: center;
+      height: auto;
+      box-sizing: border-box;
+}
+.inputInscrip{
+      height: 35px;
+      width: 100%;
+      margin-top: 1em;
+      padding-left: 10px;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+#btnInscrire{
+      margin-top: 2em;
+}
+p{
+      margin-top: 2em;
+      color: #845ec2;
+}
+.head{
+      padding-bottom: 1em;
+      padding-top: 1em;
+      margin-bottom: 1em;
+      width: 100%;
+      background-color: #845ec2;
+}
+.head h1{
+      margin: 0;
+      color: white;
+      text-align: center;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+      .modal {
+          padding-left: 25em;
+          padding-right: 25em;
+      }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+      .modal {
+          padding-left: 15em;
+          padding-right: 15em;
+      }
+}
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+      .modal {
+          padding-left: 10em;
+          padding-right: 10em;
+      }
+}
+@media screen and (max-width: 899px) {
+      .modal {
+          padding-left: 3.5em;
+          padding-right: 3.5em;
+      }
+}
+@media screen and (max-width: 600px) {
+      .modal {
+          padding-left: 0.5em;
+          padding-right: 0.5em;
+      }
+      .modal-content #divInputLogin{
+            width: 100%;
+      }
+}

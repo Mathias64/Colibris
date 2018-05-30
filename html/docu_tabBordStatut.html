@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="../img/coLibris-header.png" />
+        <title>Tableau de bord - Statuts</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/docu_tabBordStatut.css" />
+        <link rel="stylesheet" type="text/css" href="../css/docu_tabBordCollege.css" />
+        <link rel="stylesheet" type="text/css" href="../css/old_gestDemandesDocu.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../js/docu_gestDemandes.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <main class="main">
+            
+            <!-- Section haute pour titre de page, etc -->
+            <section class="premiereSection">
+                <button class="btn btn-modifier" onclick="self.location.href='docu_tabBordStatut.html'">Statut Séries</button>
+                <button class="btn btn-modifier" onclick="self.location.href='docu_tabBordCollege.html'">Séries par Collège</button>
+            </section>
+            
+<!--========Section prêts====================================================-->
+            <section id="section-prets">
+                <div id="aRecuperer" class="statut-serie">
+                    <h2>Séries à récupérer</h2>
+                        <div class="ficheSerie">
+                        <article class="panel-heading"><!-- Affichage principal de l'info -->
+                            <img class="requVignette" src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                            <div class="float-left">
+                                <h2 class="panel-title">
+                                    Les fourberies de Scapin, Molière
+                                </h2>
+                                <p>Professeur Machin du Collège Simin Palay (Lescar - 4ème B)</p>
+                                <p>Du 00/00/2018 au 00/00/2018 (Demande du 04/04/2018)</p>
+                            </div>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true"  class="fas fa-angle-down"></a>
+                        </article>
+                        <aside id="collapse2" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                        <!-- Déroulé de l'article, affichage secondaire -->
+                            <div class="reqDescription">
+                                <img src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                                <ul>
+                                    <li>Editeur : Hachette Éducation</li>
+                                    <li>Collection : Bibliocollège</li>
+                                    <li>ISBN-10: 2013949677</li>
+                                    <li>ISBN-13: 978-2013949675</li>
+                                </ul>
+                            </div>
+                            <div class="reqMessageInt">
+                                <p>
+                                    Message de M. Machin :<br />
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                </p>
+                                <textarea name="textarea" rows="4" cols="54">Votre message</textarea>
+
+                                <button class="btn btn-warning">Modifier</button>
+                                <button class="btn btn-success">Envoyer
+                                    <!--- class="buttonSendRequest" pour envoyer la requête.-->
+                                </button>
+                            </div>
+                            <div class="reqTraitement">
+                                <textarea name="textarea" rows="4" cols="50">Message optionnel</textarea>
+
+                                <button class="btn btn-warning">Annuler la demande</button>
+                                <button class="btn btn-success float-right">Envoyer la demande
+                                    <!--- class="buttonSendRequest" pour envoyer la requête.-->
+                                </button>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="ficheSerie">
+                        <article class="panel-heading"><!-- Affichage principal de l'info -->
+                            <img class="requVignette" src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                            <div class="float-left">
+                                <h2 class="panel-title">
+                                    Les fourberies de Scapin, Molière
+                                </h2>
+                                <p>Professeur Machin du Collège Simin Palay (Lescar - 4ème B)</p>
+                                <p>Du 00/00/2018 au 00/00/2018 (Demande du 04/04/2018)</p>
+                            </div>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse" aria-expanded="true"  class="fas fa-angle-down"></a>
+                        </article>
+                    </div>
+                    <div class="ficheSerie">
+                        <article class="panel-heading"><!-- Affichage principal de l'info -->
+                            <img class="requVignette" src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                            <div class="float-left">
+                                <h2 class="panel-title">
+                                    Les fourberies de Scapin, Molière
+                                </h2>
+                                <p>Professeur Machin du Collège Simin Palay (Lescar - 4ème B)</p>
+                                <p>Du 00/00/2018 au 00/00/2018 (Demande du 04/04/2018)</p>
+                            </div>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse" aria-expanded="true"  class="fas fa-angle-down"></a>
+                        </article>
+                    </div>
+                    <div class="ficheSerie">
+                        <article class="panel-heading"><!-- Affichage principal de l'info -->
+                            <img class="requVignette" src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                            <div class="float-left">
+                                <h2 class="panel-title">
+                                    Les fourberies de Scapin, Molière
+                                </h2>
+                                <p>Professeur Machin du Collège Simin Palay (Lescar - 4ème B)</p>
+                                <p>Du 00/00/2018 au 00/00/2018 (Demande du 04/04/2018)</p>
+                            </div>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse" aria-expanded="true"  class="fas fa-angle-down"></a>
+                        </article>
+                    </div>
+                </div>
+                <div id="aRendre" class="statut-serie">
+                    <h2>Séries à rendre</h2>
+                    <div class="ficheSerie">
+                        <article class="panel-heading"><!-- Affichage principal de l'info -->
+                            <img class="requVignette" src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                            <div class="float-left">
+                                <h2 class="panel-title">
+                                    Les fourberies de Scapin, Molière
+                                </h2>
+                                <p>Professeur Machin du Collège Simin Palay (Lescar - 4ème B)</p>
+                                <p>Du 00/00/2018 au 00/00/2018 (Demande du 04/04/2018)</p>
+                            </div>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true"  class="fas fa-angle-down"></a>
+                        </article>
+                        <aside id="collapse2" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                        <!-- Déroulé de l'article, affichage secondaire -->
+                            <div class="reqDescription">
+                                <img src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                                <ul>
+                                    <li>Editeur : Hachette Éducation</li>
+                                    <li>Collection : Bibliocollège</li>
+                                    <li>ISBN-10: 2013949677</li>
+                                    <li>ISBN-13: 978-2013949675</li>
+                                </ul>
+                            </div>
+                            <div class="reqMessageInt">
+                                <p>
+                                    Message de M. Machin :<br />
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                </p>
+                                <textarea name="textarea" rows="4" cols="54">Votre message</textarea>
+
+                                <button class="btn btn-warning">Modifier</button>
+                                <button class="btn btn-success">Envoyer
+                                    <!--- class="buttonSendRequest" pour envoyer la requête.-->
+                                </button>
+                            </div>
+                            <div class="reqTraitement">
+                                <textarea name="textarea" rows="4" cols="50">Message optionnel</textarea>
+
+                                <button class="btn btn-warning">Annuler la demande</button>
+                                <button class="btn btn-success float-right">Envoyer la demande
+                                    <!--- class="buttonSendRequest" pour envoyer la requête.-->
+                                </button>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="ficheSerie">
+                        <article class="panel-heading"><!-- Affichage principal de l'info -->
+                            <img class="requVignette" src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                            <div class="float-left">
+                                <h2 class="panel-title">
+                                    Les fourberies de Scapin, Molière
+                                </h2>
+                                <p>Professeur Machin du Collège Simin Palay (Lescar - 4ème B)</p>
+                                <p>Du 00/00/2018 au 00/00/2018 (Demande du 04/04/2018)</p>
+                            </div>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse" aria-expanded="true"  class="fas fa-angle-down"></a>
+                        </article>
+                    </div>
+                    <div class="ficheSerie">
+                        <article class="panel-heading"><!-- Affichage principal de l'info -->
+                            <img class="requVignette" src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                            <div class="float-left">
+                                <h2 class="panel-title">
+                                    Les fourberies de Scapin, Molière
+                                </h2>
+                                <p>Professeur Machin du Collège Simin Palay (Lescar - 4ème B)</p>
+                                <p>Du 00/00/2018 au 00/00/2018 (Demande du 04/04/2018)</p>
+                            </div>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse" aria-expanded="true"  class="fas fa-angle-down"></a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            
+<!--========Section emprunts=================================================-->
+            <section id="section-emprunts">
+                <div id="empruntees" class="statut-serie">
+                    <h2>Séries empruntées</h2>
+                    <div class="ficheSerie">
+                        <article class="panel-heading"><!-- Affichage principal de l'info -->
+                            <img class="requVignette" src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                            <div class="float-left">
+                                <h2 class="panel-title">
+                                    Les fourberies de Scapin, Molière
+                                </h2>
+                                <p>Professeur Machin du Collège Simin Palay (Lescar - 4ème B)</p>
+                                <p>Du 00/00/2018 au 00/00/2018 (Demande du 04/04/2018)</p>
+                            </div>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true"  class="fas fa-angle-down"></a>
+                        </article>
+                    </div>
+                    <div class="ficheSerie">
+                        <article class="panel-heading"><!-- Affichage principal de l'info -->
+                            <img class="requVignette" src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                            <div class="float-left">
+                                <h2 class="panel-title">
+                                    Les fourberies de Scapin, Molière
+                                </h2>
+                                <p>Professeur Machin du Collège Simin Palay (Lescar - 4ème B)</p>
+                                <p>Du 00/00/2018 au 00/00/2018 (Demande du 04/04/2018)</p>
+                            </div>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse" aria-expanded="true"  class="fas fa-angle-down"></a>
+                        </article>
+                    </div>
+                    <div class="ficheSerie">
+                        <article class="panel-heading"><!-- Affichage principal de l'info -->
+                            <img class="requVignette" src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                            <div class="float-left">
+                                <h2 class="panel-title">
+                                    Les fourberies de Scapin, Molière
+                                </h2>
+                                <p>Professeur Machin du Collège Simin Palay (Lescar - 4ème B)</p>
+                                <p>Du 00/00/2018 au 00/00/2018 (Demande du 04/04/2018)</p>
+                            </div>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse" aria-expanded="true"  class="fas fa-angle-down"></a>
+                        </article>
+                    </div>
+                </div>
+                <div id="pretees" class="statut-serie">
+                    <h2>Séries prétées</h2>
+                    <div class="ficheSerie">
+                        <article class="panel-heading"><!-- Affichage principal de l'info -->
+                            <img class="requVignette" src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                            <div class="float-left">
+                                <h2 class="panel-title">
+                                    Les fourberies de Scapin, Molière
+                                </h2>
+                                <p>Professeur Machin du Collège Simin Palay (Lescar - 4ème B)</p>
+                                <p>Du 00/00/2018 au 00/00/2018 (Demande du 04/04/2018)</p>
+                            </div>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true"  class="fas fa-angle-down"></a>
+                        </article>
+                    </div>
+                    <div class="ficheSerie">
+                        <article class="panel-heading"><!-- Affichage principal de l'info -->
+                            <img class="requVignette" src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                            <div class="float-left">
+                                <h2 class="panel-title">
+                                    Les fourberies de Scapin, Molière
+                                </h2>
+                                <p>Professeur Machin du Collège Simin Palay (Lescar - 4ème B)</p>
+                                <p>Du 00/00/2018 au 00/00/2018 (Demande du 04/04/2018)</p>
+                            </div>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse" aria-expanded="true"  class="fas fa-angle-down"></a>
+                        </article>
+                    </div>
+                    <div class="ficheSerie">
+                        <article class="panel-heading"><!-- Affichage principal de l'info -->
+                            <img class="requVignette" src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                            <div class="float-left">
+                                <h2 class="panel-title">
+                                    Les fourberies de Scapin, Molière
+                                </h2>
+                                <p>Professeur Machin du Collège Simin Palay (Lescar - 4ème B)</p>
+                                <p>Du 00/00/2018 au 00/00/2018 (Demande du 04/04/2018)</p>
+                            </div>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse" aria-expanded="true"  class="fas fa-angle-down"></a>
+                        </article>
+                    </div>
+                    <div class="ficheSerie">
+                        <article class="panel-heading"><!-- Affichage principal de l'info -->
+                            <img class="requVignette" src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="couverture">
+                            <div class="float-left">
+                                <h2 class="panel-title">
+                                    Les fourberies de Scapin, Molière
+                                </h2>
+                                <p>Professeur Machin du Collège Simin Palay (Lescar - 4ème B)</p>
+                                <p>Du 00/00/2018 au 00/00/2018 (Demande du 04/04/2018)</p>
+                            </div>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse" aria-expanded="true"  class="fas fa-angle-down"></a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src='../js/header.js'></script>
+    </body>
+</html>

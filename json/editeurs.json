@@ -1,0 +1,86 @@
+[
+    {
+        "@type": "Editeur",
+        "name": "Hachette Éducation",
+        "collection": [
+            "Bibliocollège"
+        ]
+    },
+    {
+        "@type": "Editeur",
+        "name": "Editions Flammarion",
+        "collection": [
+            "Flammarion jeunesse"
+        ]
+    },
+    {
+        "@type": "Editeur",
+        "name": "La Table Ronde",
+        "collection": [
+            "La petite Vermillon"
+        ]
+    },
+    {
+        "@type": "Editeur",
+        "name": "Le Livre de Poche",
+        "collection": [
+            "Libretti"
+        ]
+    },
+    {
+        "@type": "Editeur",
+        "name": "Gallimard Jeunesse",
+        "collection": [
+            "Folio Cadet premiers romans"
+        ]
+    },
+    {
+        "@type": "Editeur",
+        "name": "Casterman",
+        "collection": [
+            "Alix"
+        ]
+    },
+    {
+        "@type": "Editeur",
+        "name": "Gallimard",
+        "collection": [
+            "Folio Junior"
+        ]
+    },
+    {
+        "@type": "Editeur",
+        "name": "Livre de Poche Jeunesse",
+        "collection": [
+            "Livre de Poche Jeunesse"
+        ]
+    },
+    {
+        "@type": "Editeur",
+        "name": "Pocket",
+        "collection": [
+            "Classique"
+        ]
+    },
+    {
+        "@type": "Editeur",
+        "name": "Flammarion",
+        "collection": [
+            "Etonnants Classiques"
+        ]
+    },
+    {
+        "@type": "Editeur",
+        "name": "J'ai lu - Librio",
+        "collection": [
+            "Librio littérature"
+        ]
+    },
+    {
+        "@type": "Editeur",
+        "name": "CreateSpace Independent Publishing Platform",
+        "collection": [
+            "No name"
+        ]
+    }
+]

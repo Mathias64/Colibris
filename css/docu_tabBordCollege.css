@@ -1,0 +1,31 @@
+/* 
+    Created on : 2 avr. 2018, 09:22:34
+    Author     : mathias
+*/
+
+#section-prets, #section-emprunts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.statut-serie {
+    width: 49.6%;
+    text-align: center;
+    margin: 0 5px;
+}
+.ficheSerie {
+    text-align: left;
+}
+
+#aRecuperer .panel-heading { 
+    background-color: #ea9999;
+}
+#aRendre .panel-heading { 
+    background-color: #ffe599;
+}
+#empruntees .panel-heading { 
+    background-color: #9fc5f8;
+}
+#pretees .panel-heading { 
+    background-color: #b6d7a8;
+}

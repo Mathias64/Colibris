@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="img/coLibris-header.png" />
+    <title>Colibris - Connexion</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css"/>
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+</head>
+
+<body>
+    <div class="mainIndex pageLogin">
+        <section>
+            <div id="logo">
+                <img src="img/colibris.png" alt="logo">
+                <p>Echanges de séries de livres entre les collèges des Pyrénées Atlantiques</p>
+            </div>
+            <form id="login" method="post" onsubmit="return verifDonnees(this)">
+                <h1>Connectez-vous</h1>
+                <div id="divInputLogin">
+                    <input id="username" class="inputLogin" name="mailConnexion" type="email" placeholder="Identifiant" onblur='verifDonneesOnBlur(this)'>
+                    <input id="password" class="inputLogin" name="mdpConnexion" type="password" placeholder="Mot de passe" onblur='verifDonneesOnBlur(this)'>
+                </div>
+                <div id="lienMdpOublie">
+                    <a href="#">Mot de passe oublié ?</a>
+                </div>
+                <div id="divBoutonLogin">
+                    <input type="button" id="btnInscription" value="Inscription" class="btn btn-modifier colorWhite" />
+                    <input type="submit" id="btnConnexion" value="Connexion" class="btn btn-modifier" />
+                </div>
+            </form>
+            
+                  <!--********** modal ***********-->
+
+                <div id="myModal" class="modal">
+
+                <form id="login" class="modal-content" method="post" onsubmit="return verifDonnees(this)">
+                        <div class="head">
+                            <h1>Inscrivez-vous</h1>
+                        </div>
+                    <div id="divInputLogin">
+                        <p>Identité professionnelle</p>
+                        <input id="prenom" class="policeForm inputInscrip" name="prenom" type="text" placeholder="Prénom" onblur='verifDonneesOnBlur(this)'>
+                        <input id="nom" class="policeForm inputInscrip" name="nom" type="text" placeholder="Nom" onblur='verifDonneesOnBlur(this)'>
+                        <input id="college" class="policeForm inputInscrip" name="college" type="text" placeholder="Collège" onblur='verifDonneesOnBlur(this)'>
+                        <input id="mail" class="policeForm inputInscrip" name="mail" type="email" placeholder="Adresse mail" onblur='verifDonneesOnBlur(this)'>
+                        <p>Paramètres du compte</p>
+                        <input id="pseudo" class="policeForm inputInscrip" name="pseudo" type="text" placeholder="Identifiant" onblur='verifDonneesOnBlur(this)'>
+                        <input id="password" class="policeForm inputInscrip" name="mdpInscrip" type="password" placeholder="Mot de passe" onblur='verifDonneesOnBlur(this)'>
+                        <!-- <input id="password" class="policeForm inputInscrip" name="mdpConnexion" type="password" placeholder="Confirmez le mot de passe" onblur='verifDonneesOnBlur(this)'> -->
+                    </div>
+                    <div id="divBoutonLogin">
+                        <input type="submit" id="btnInscrire" value="S'inscrire" class="btn-modifier colorWhite" />
+                    </div>
+                </form>
+
+                </div>
+
+          
+        </section>
+        <footer>
+        </footer>
+        <script src='js/login.js'></script>
+        <script src='profdata.js'></script>
+        <script src='js/logintest.js'></script>
+        <!-- <script src='js/pushdb.js'></script> -->
+    </div>
+</body>
+
+</html>

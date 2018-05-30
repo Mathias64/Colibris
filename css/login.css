@@ -1,0 +1,170 @@
+/*-------------------------- Page Login -----------------------*/
+.pageLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    border-bottom: 0px;
+    color: #845ec2;
+}
+
+section {
+    position: relative;
+    width: 95%;
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#logo {
+    box-sizing: border-box;
+    background-color: #845ec2;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+       -moz-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+            box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+}
+
+#logo img {
+    height: 50%;
+}
+
+#logo p {
+    text-align: center;
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+#login {
+    height: auto;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px 30px 10px;
+    -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+       -moz-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+            box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+}
+
+#divInputLogin {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#divBoutonLogin {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;  
+    justify-content: center;
+}
+
+
+input[type="button"],
+input[type="submit"] {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.colorWhite {
+    background-color: #cacaca;
+    border: 0;
+    color: #845ec2;
+}
+
+.inputLogin {
+    height: 35px;
+    width: 100%;    
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 0;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.5);
+       -moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.5);
+            box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.inputLogin::placeholder {
+    color: #845ec2;
+}
+
+#lienMdpOublie {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+#lienMdpOublie a {
+    color: #845ec2;
+    text-decoration: none;
+}
+
+.Section2Index {
+    height: 400px;
+    width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+           -moz-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+                box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+}
+
+@media all and (min-width: 600px) {
+    section {
+        width: 70%;
+    }
+    #divInputLogin {
+        width: 90%;
+    }
+    #divBoutonLogin {
+        width: 90%;
+    }
+    #lienMdpOublie {
+        width: 90%;
+    }
+}
+
+@media all and (min-width: 900px) {
+    section {
+        width: 70%;
+    }
+    #divInputLogin {
+        width: 70%;
+    }
+    #divBoutonLogin {
+        width: 70%;
+    }
+    #lienMdpOublie {
+        width: 70%;
+    }
+    #divBoutonLogin {
+        justify-content: space-around;
+    }
+}

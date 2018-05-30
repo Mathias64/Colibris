@@ -1,0 +1,125 @@
+/**
+ * Theme for jQRangeSlider
+ * Inspired by http://cssdeck.com/item/381/itunes-10-storage-bar
+ *        and http://cssdeck.com/item/276/pure-css-arrow-with-border-tooltip
+ */
+
+.ui1-rangeSlider {
+    height: 15px;
+    padding-top: 5px;
+    position: relative;
+}
+
+.ui1-rangeSlider,
+.ui1-rangeSlider-container {
+    -webkit-box-sizing:content-box;
+       -moz-box-sizing:content-box;
+            box-sizing:content-box;
+}
+
+.ui1-rangeSlider-withArrows .ui1-rangeSlider-container{
+    margin: 0 15px;
+}
+
+.ui1-rangeSlider-container {
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border-left: solid 1px #515862;
+    border-right: solid 1px #515862;
+    
+    -webkit-box-shadow: inset 0px 4px 6px -2px RGBA(0,0,0,0.5);
+       -moz-box-shadow: inset 0px 4px 6px -2px RGBA(0,0,0,0.5);
+            box-shadow: inset 0px 4px 6px -2px RGBA(0,0,0,0.5);
+
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    border-top: solid 1px #232a32;
+    border-bottom: solid 1px #6a7179;
+
+    background: #67707F;
+    background: -moz-linear-gradient(top, #67707F 0%, #888DA0 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#67707F), color-stop(100%,#888DA0));
+}
+
+
+.ui1-rangeSlider-innerBar{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.ui1-rangeSlider-bar {
+    background: #d39e00;
+    height: 14px;
+    margin:1px 0;
+    position: absolute;
+    top: 0;
+    
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    -webkit-box-shadow: inset 0 2px 6px RGBA(0,0,0,0.5);
+       -moz-box-shadow: inset 0 2px 6px RGBA(0,0,0,0.5);
+            box-shadow: inset 0 2px 6px RGBA(0,0,0,0.5);
+}
+
+
+.ui1-rangeSlider-handle{
+    width:10px;
+    height:30px;
+    background: transparent;
+    cursor:col-resize;
+}
+
+.ui1-rangeSlider-label{
+    padding: 5px 10px;
+    bottom:40px;
+
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    -webkit-box-shadow: 0px 1px 0px #c2c5d6;
+       -moz-box-shadow: 0px 1px 0px #c2c5d6;
+            box-shadow: 0px 1px 0px #c2c5d6;
+
+    color:white;
+    font-size:15px;
+
+    cursor:col-resize;
+}
+
+.ui1-editRangeSlider-inputValue{
+    width:2em;
+    text-align:center;
+    font-size:15px;
+}
+
+.ui1-ruler-scale{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+.ui1-ruler-tick { 
+    float: left; 
+}
+
+.ui1-ruler-tick-inner {
+    color:white;
+    margin-top:1px;
+    border-left: 1px solid white;
+    height:14px;
+    padding-left:2px;
+    position:relative;
+}
+
+.ui1-ruler-tick-label{
+    position:absolute;
+    font-size: 10px;
+}

@@ -1,0 +1,167 @@
+[
+    {
+        "_id": 0,
+        "@type" : "College",
+        "sameAs" : "http://webetab.ac-bordeaux.fr/college-simin-palay/",
+        "name" : "Simin Palay",
+        "rne": "0641391P",
+        "phoneCDI": 559811072,
+        "address" :
+        {
+            "@type" : "PostalAddress",
+            "streetAddress" : "Chemin de confesse",
+            "addressLocality" : "Lescar",
+            "postalCode" : "64230"
+        }
+    },
+    {
+        "_id": 1,
+        "@type" : "College",
+        "sameAs" : "http://webetab.ac-bordeaux.fr/college-morlaas/",
+        "name" : "La Hourquie",
+        "rne": "0641412M",
+        "phoneCDI": 559334110,
+        "address" :
+        {
+            "@type" : "PostalAddress",
+            "streetAddress" : "rue Lascarribasses",
+            "addressLocality" : "Morlaàs",
+            "postalCode" : "64160"
+        }
+    },
+    {
+        "_id": 2,
+        "@type" : "College",
+        "sameAs" : "http://webetab.ac-bordeaux.fr/college-baretous-arette/",
+        "name" : "de Barétous",
+        "rne": "0640004G",
+        "phoneCDI": 559889092,
+        "address" :
+        {
+            "@type" : "PostalAddress",
+            "streetAddress" : "Route d'Issor",
+            "addressLocality" : "Arette",
+            "postalCode" : "64570"
+        }
+    },
+    {
+        "_id": 3,
+        "@type" : "College",
+        "sameAs" : "http://webetab.ac-bordeaux.fr/cite-gaston-febus-orthez/",
+        "name" : "Gaston Fébus",
+        "rne": "0641560Y",
+        "phoneCDI": 559670800,
+        "address" :
+        {
+            "@type" : "PostalAddress",
+            "streetAddress" : "20, avenue Georges Moutet",
+            "addressLocality" : "Orthez",
+            "postalCode" : "64300"
+        }
+    },
+    {
+        "_id": 4,
+        "@type" : "College",
+        "sameAs" : "http://webetab.ac-bordeaux.fr/college-jean-moulin-artix/",
+        "name" : "Jean Moulin",
+        "rne": "0640231D",
+        "phoneCDI": 559602975,
+        "address" :
+        {
+            "@type" : "PostalAddress",
+            "streetAddress" : "Rue du Galupe",
+            "addressLocality" : "Artix",
+            "postalCode" : "64170"
+        }
+    },
+    {
+        "_id": 5,
+        "@type" : "College",
+        "sameAs" : "http://www.college-marguerite-navarre.org/",
+        "name" : "Marguerite de Navarre",
+        "rne": "0640607M",
+        "phoneCDI": 559270511,
+        "address" :
+        {
+            "@type" : "PostalAddress",
+            "streetAddress" : "14 boulevard Barbanègre",
+            "addressLocality" : "Pau",
+            "postalCode" : "64000"
+        }
+    },
+    {
+        "_id": 6,
+        "@type" : "College",
+        "sameAs" : "http://webetab.ac-bordeaux.fr/college-jean-sarrailh/",
+        "name" : "Recteur Jean Sarrailh",
+        "rne": "0640041X",
+        "phoneCDI": 559213048,
+        "address" :
+        {
+            "@type" : "PostalAddress",
+            "streetAddress" : "2 avenue du Pont Lat",
+            "addressLocality" : "Monein",
+            "postalCode" : "64360"
+        }
+    },
+    {
+        "_id": 7,
+        "@type" : "College",
+        "sameAs" : "http://webetab.ac-bordeaux.fr/college-laruns/",
+        "name" : "Les Cinq Monts",
+        "rne": "0640035R",
+        "phoneCDI": 559053475,
+        "address" :
+        {
+            "@type" : "PostalAddress",
+            "streetAddress" : "Avenue de la Gare",
+            "addressLocality" : "Laruns",
+            "postalCode" : "64440"
+        }
+    },
+    {
+        "_id": 8,
+        "@type" : "College",
+        "sameAs" : "http://webetab.ac-bordeaux.fr/college-endarra/",
+        "name" : "Endarra",
+        "rne": "0640003F",
+        "phoneCDI": 559630704,
+        "address" :
+        {
+            "@type" : "PostalAddress",
+            "streetAddress" : "5 avenue Eugène Bernain",
+            "addressLocality" : "Anglet",
+            "postalCode" : "64600"
+        }
+    },
+    {
+        "_id": 9,
+        "@type" : "College",
+        "sameAs" : "http://www.collegeforgues64.fr/",
+        "name" : "René Forgues",
+        "rne": "0641780M",
+        "phoneCDI": 559337798,
+        "address" :
+        {
+            "@type" : "PostalAddress",
+            "streetAddress" : "Rue des écoles",
+            "addressLocality" : "Serres-Castet",
+            "postalCode" : "64121"
+        }
+    },
+    {
+        "_id": 10,
+        "@type" : "College",
+        "sameAs" : "http://webetab.ac-bordeaux.fr/cite-scolaire-ravel/",
+        "name" : "Maurice Ravel",
+        "rne": "0641559X",
+        "phoneCDI": 559262200,
+        "address" :
+        {
+            "@type" : "PostalAddress",
+            "streetAddress" : "4, Avenue Professeur Gregorio Marañon",
+            "addressLocality" : "Saint-Jean-de-Luz",
+            "postalCode" : "64500"
+        }
+    }
+]

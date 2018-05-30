@@ -1,0 +1,110 @@
+/*----------------------- Page gest demande docu -----------------------------*/
+
+.ficheSerie {
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 5px 5px rgba(0,0,0,.3);
+    margin: 5px 0;
+}
+
+.panel-heading {
+    background-color: #FFFFFF;
+    border-bottom: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 86px;
+    padding: 9px;
+    position: relative;
+    clear: both;
+}
+.requVignette {
+    height: 66px;
+    width: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+.panel-heading a {
+    font-size: 60px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    text-decoration: none;
+}
+.notif {
+    position: absolute;
+    top: 28px;
+    right: 90px;
+    clear: both;
+}
+.notif i {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.panel-collapse {
+    background-color: #fff;
+    padding: 19px;
+    clear: both;
+}
+.collapse {
+  display: none; /*a repasser en none*/
+}
+.collapse.in {
+  display: block;
+}
+
+
+/*reqDescription--------------------------------------------------------------*/
+.reqDescription {
+    width: 450px;
+    height: 250px;
+    float: left;
+}
+.reqDescription img {
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+}
+ul {
+    list-style-type: none;
+}
+/*reqMessageInt---------------------------------------------------------------*/
+.reqMessageInt {
+    min-height: 250px;
+}
+.reqMessageInt p {
+    text-align: justify;
+}
+.reqMessageInt textarea {
+    margin-top: 10px;
+/*    width: 100%;*/
+}
+/*reqTraitement---------------------------------------------------------------*/
+.reqTraitement {
+    width: 100%;
+    margin-top: 10px;
+}
+.reqTraitement p {
+    text-align: justify;
+    border: 1px solid #3B3B3B;
+    padding: 5px;
+    margin-top: 10px;
+}
+.reqTraitement textarea {
+    font-family: inherit;
+    font-size: inherit;
+    margin: 10px 0;
+    padding: 5px 10px;
+    width: 100%;
+}
+.reqTraitement .statut {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+}

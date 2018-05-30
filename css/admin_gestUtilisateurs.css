@@ -1,0 +1,230 @@
+/* bouton choix accueil gestion user  */
+
+.btnType {
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-left: 2px solid #3B3B3B;
+    border-bottom: 2px solid #3B3B3B;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    
+    background-color: white; 
+    color: #3B3B3B;
+    font-weight: 500;    
+}
+.btnTypeSelected {
+    background-color: #845ec2;
+    color: white;
+    font-weight: 600;
+}
+
+.zoneManagementUserAddUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    width: 50px;
+    background-color: white; 
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+#boutonAddUser {
+    display: block;
+    text-decoration: none;
+    color: #3B3B3B;
+}
+
+/* section 2 */ 
+
+/* div texte de base */
+
+.zoneManagementUserTexteBase {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.displayNone {
+    display: none;
+}
+
+.zoneManagementUserTable {
+    width: 100%;    
+    text-align: center;
+    border-collapse: collapse;
+}
+.zoneManagementUserTable thead {
+    background-color: #56AAE5;
+}
+
+.zoneManagementUserTable thead td {
+    color: white;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 15px solid #F0F0F0;
+}
+
+.zoneManagementUserTable tbody td {
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+}
+
+.borderAfterRow {
+    border-bottom: 5px solid #F0F0F0;
+}
+.borderAfterBigRow {
+    border-bottom: 15px solid #F0F0F0;
+}
+
+.angle-down {
+    height: 1em;
+}
+.angle-up {
+    height: 1em;
+}
+
+.lienBlock {
+    display: block;
+}
+
+.avec-border {
+    margin-bottom: 10px;
+}
+
+.sans-border {
+    margin-bottom: 0px;
+}
+
+.divOuverte {
+    -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+    box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+}
+
+.divFermee {
+    -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+    box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+}
+
+
+
+
+/* intituler du tableau user */
+
+.ligneTab {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F0F0;
+    border-color: #845ec2;
+    height: 40px;
+    text-align: center;
+}
+
+.headTab {
+    color: white;
+    border-color: #fff;
+    background-color: #845ec2;
+    margin-bottom: 10px;
+}
+
+.deroulerBoutonAction {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F0F0F0;
+}
+
+.boutonModifSupp {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 182px;
+    padding-bottom: 20px;
+}
+
+.btn-updatedelete {
+    display: block;
+    text-align: center;
+    padding: 8px 4px 8px 4px;
+    min-width: 70%;
+    border: 2px solid #478EBF;
+    text-decoration: none;
+    color: white;
+    background-color: #56AAE5;
+}
+
+.btn-delete{
+    border: 2px solid #3B3B3B;
+    text-decoration: none;
+    color: #3B3B3B;
+    background-color: white;
+}
+
+/* Colonnes du tableau ------------------------------------------------------ */
+
+.nomUser {
+    display: block;
+    width: 180px;
+    border-right: 1px solid;
+}
+
+.prenomUser {
+    display: block;
+    width: 180px;
+    border-right: 1px solid;
+}
+
+.emailUser {
+    display: block;
+    width: 350px;
+    border-right: 1px solid;
+}
+
+.collegeUser {
+    display: block;
+    width: 300px;
+    border-right: 1px solid;
+}
+
+.actionUser {
+    display: block;
+    width: 120px;
+}
+
+.actionUser ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.actionUser ul li {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #845ec2;
+    border-radius: 3px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.actionUser ul li:last-child {
+    font-size: 25px;
+    padding-top: 0;
+}

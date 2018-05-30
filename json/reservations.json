@@ -1,0 +1,34 @@
+[
+    {
+    "@type" : "Reservation",
+    "ISBN_13" : 9782013949675,
+    "serie": [
+        {
+        "codeBar": 47862133,
+        "demandes": [
+            {
+            "utilisateur_id" : 12,
+            "college": 0,
+            "dateDemande" : "2018-05-02T16:43:00Z",
+            "dateDebut" :   "2018-05-15T12:00:00Z",
+            "dateFin" :     "2018-06-15T12:00:00Z"
+            },
+            {
+            "utilisateur_id" : 6,
+            "college": 4,
+            "dateDemande" : "2016-05-02T16:43:00Z",
+            "dateDebut" :   "2017-09-10T12:00:00Z",
+            "dateFin" :     "2017-10-13T12:00:00Z"
+            },
+            {
+            "utilisateur_id" : 20,
+            "college": 8,
+            "dateDemande" : "2016-05-02T16:43:00Z",
+            "dateDebut" :   "2017-12-02T10:00:00Z",
+            "dateFin" :     "2018-02-14T12:00:00Z"
+            }
+        ]
+        }
+    ]
+    }
+]

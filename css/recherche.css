@@ -1,0 +1,251 @@
+
+/*-------- Page recherche -----------------------------*/
+.search-box {
+    padding: 10px;
+    margin-top: 30vh;
+}
+
+.dropdown select {
+    margin-left: 10px;
+}
+
+.input-search {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px 0 0 10px;
+    border: 0;
+    font-size: 14px;
+}
+
+.input-group-btn button {
+    padding: 8px 20px;
+    border-radius: 0 10px 10px 0;
+    border: 0;
+}
+
+.search-bar {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+.right-menu {
+    float: right;
+}
+.advance-search {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#zoneSearchResult {
+/*    margin-top: 300px;*/
+    display: none;
+}
+article {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #fafafa;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.35);
+       -moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.35);
+            box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.35);
+}
+
+article img {
+    max-width: 90px;
+    max-height: 140px;
+    margin-right: 15px;
+    border: 1px solid black;
+}
+
+.article-left{
+    display: flex;
+    
+}
+.couleur-article-requete-in{
+    border-left: 8px solid #42f4ee;
+}
+
+.couleur-article-requete-out{
+    border-left: 8px solid #ff1c1c;
+}
+
+.couleur-article-requete-clear{
+    border-left: 8px solid #5e5e5e;
+}
+.legende{
+    
+    background-color: #fff;
+    max-width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #fafafa;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.35);
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.35);
+}
+.legende-color1{
+    border-left: 5px solid #42f4ee;
+}
+.legende-color2{
+    border-left: 5px solid #ff1c1c;
+}
+.legende-color3{
+    border-left: 5px solid #5e5e5e;
+}
+
+
+.containMenu {
+    display: flex;
+    margin-top: 5px;
+}
+
+.containMenu li {
+    padding: 2px 0;
+}
+
+.containMenu ul:first-child {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid grey;
+    width: 320px;
+}
+
+article ul {
+    list-style: none;
+}
+
+.ficheContain {
+    display: flex;
+    justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+.titleArticle {
+    /*background: green;*/
+}
+
+.article-right {
+    display: flex;
+}
+
+.article-right ul {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.article-right ul li {
+/*    width: 30px;*/
+    height: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.article-right ul li:last-child {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+/*Barre de temps*/
+
+.barreTemps {
+    width: 100%;
+    padding: 15px 0;
+}
+
+.barreTemps li {
+    background: grey;
+    width: 10%;
+    height: 10px;
+    float: left;
+}
+
+.barreTemps .barreTempsFull {
+    background: orange;
+}
+
+
+
+
+
+
+.article-complement {
+    width: 100%;
+    display: none; /* a repasser en block*/
+    justify-content: space-between;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.collegeContain {
+    width: 100%;
+}
+
+.college {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.infoResa {
+    /*padding-left: 20px;*/
+}
+
+.dates {
+    display: flex;
+    /*justify-content: space-between;*/
+    width: 100%;
+}
+.dates label {
+    display: block;
+    margin-top: 15px;
+}
+.dates input {
+    width: 100%;
+}
+.commentaires {
+    width: 100%;
+    margin-top: 15px;
+}
+.commentaires label {
+    display: block;
+}
+.commentaires textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.confirm {
+    float: left;
+}
+#confirm {
+    margin-left: 10px;
+}
+.btn-requete {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: purple;
+    border: 0;
+    border-radius: 10px;
+    float: right;
+    color: white;
+}
+.select {
+    border-color: rgb(169, 169, 169);
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    margin-left: 8px;
+    margin-right: 4px;
+}
