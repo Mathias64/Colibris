@@ -143,6 +143,9 @@ label, span {
   position: relative;
   display: block; /*modifié par Mathias inline-block -> block (width 100%)*/
 }
+/* .autocomplete-list {
+    margin-top : -15px;
+} */
 
 .autocomplete-items {
   position: absolute;

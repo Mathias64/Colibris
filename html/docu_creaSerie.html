@@ -21,10 +21,16 @@
                 <!--DIV ISBN-13 -->
                 <h2>ISBN-13</h2>
                     <!--<label for="isbn13b">ISBN-13</label>-->
-                <div class="formRaw autocomplete">
-                    Commencez par entrer l'ISBN-13   <input class="focus" type="text" onfocus="listerISBN13A()" onkeypress="return verif(event)" name="isbn13a" id="isbn13a" maxlength="3" style="width:3.4em" required>
-                    <span> - </span>
-                    <input class="focus" type="text" onfocus="listerISBN13B()" onkeypress="return verif(event)" name="isbn13b" id="isbn13b" maxlength="10" style="width:65%" required>
+                <div class="formRaw">
+                    
+                    <p>Commencez par entrer l'ISBN-13&nbsp</p>      
+                    <div class="autocomplete ">
+                        <input class="focus" type="text" onfocus="listerISBN13A()" onkeypress="return verif(event)" name="isbn13a" id="isbn13a" maxlength="3" style="width:3.4em" required>
+                    </div>
+                     <p> &nbsp-&nbsp</p>
+                    <div class="autocomplete flex2">
+                        <input class="focus" type="text" onfocus="listerISBN13B()" onkeypress="return verif(event)" name="isbn13b" id="isbn13b" maxlength="10"  required>
+                    </div>
                     <div class="divFormBtn">
                         <button onclick="verifierISBN()" type="button" class="btn btn-modifier float-right" name="verifier">Vérifier</button>
                     </div>
